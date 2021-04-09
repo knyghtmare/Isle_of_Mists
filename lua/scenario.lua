@@ -341,7 +341,7 @@ on_event("die", function()
 	}
 	wesnoth.wml_actions.message {
 		speaker = "narrator",
-		message = _"The screams and pleas for mercy are finally silenced, as you remove your blood soaked blade from the last of the rebels. There will be no more resistance from the local scum. Your reign has finally earned stability.",
+		message = _"The screams and pleas for mercy are finally silenced, as you remove your blood soaked blade from the last of the invaders. There will be no more assailants coming to your shores. Your reign has finally earned stability.",
 		image ="wesnoth-icon.png",
 	}
 	wesnoth.wml_actions.endlevel {
