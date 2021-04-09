@@ -366,8 +366,7 @@ on_event("prestart", function()
 	})
 end)
 
--- I shall add this later
---[[
+
 -------------------------------------------------------------------------------
 -------------------------- Weather events -------------------------------------
 -------------------------------------------------------------------------------
@@ -505,4 +504,3 @@ on_event("side 1 turn", function()
 		error("unknown weather '" .. tostring(weather_event.weather_id) .. "'")
 	end
 end)
---]]
