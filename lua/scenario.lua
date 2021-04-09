@@ -60,7 +60,7 @@ local random_spawns = {
 		{"Sky Shard", "more", "Weaver", "Heretic"},
 	},
 	{
-		{"Dwarvish Guardsman", "Dwarvish Stalwart", "none", "none"},
+		{"Quenoth Fighter", "Quenoth Warrior", "none", "none"},
 		{"Bowman", "Longbowman", "more", "Master Bowman"},
 		{"Troll Whelp", "Troll", "Troll Warrior", "Troll Warmonger"},
 	},
