@@ -9,5 +9,14 @@
 ## Minimum Wesnoth Version
  - This was coded at the time of 1.15.11+dev so, any version after it can play this
 
+## Special Features:
+ - 1-player/2-player mode functionality
+ - Enemy Wave Strength difficulty Slider
+ - Randomised Waves
+ - Consistent Final Waves for both player modes.
+
 ## Dependency Add-ons:
  - War of Legends
+
+## Inspirations
+ - Inspired heavily by 2p - Dark Forecast
