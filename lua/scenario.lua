@@ -362,7 +362,7 @@ on_event("prestart", function()
 		fixed_spawn(27, 3, "Wyrm", "Wild Wyvern", "Elder Gryphon"),
 		fixed_spawn(8, 14, "Dune Paragon", "Dune Luminary", "Aragwaith Strongbow"),
 		fixed_spawn(4, 9, "Sangel", "Bloodborn", "Gargoyle", "Bloodborn", "Malborn", "Malborn", "Bloodborn", "Bloodborn", "Bloodborn"),
-		fixed_spawn(13, 3, "Warmonger", "Dune Spearguard", "Aragwaith Guard", "Necrophage"),
+		fixed_spawn(28,11, "Warmonger", "Dune Spearguard", "Aragwaith Guard", "Necrophage"),
 		fixed_spawn(5, 3, "Dwarvish Arcanister", "Spectre", "Shadowback", "Arbiter"),
 	})
 end)
