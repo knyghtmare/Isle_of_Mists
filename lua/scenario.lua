@@ -7,8 +7,8 @@ local random_spawns = {
 	{
 		{"Heavy Infantryman", "Shock Trooper", "Iron Mauler", "none"},
 		{"Elvish Fighter", "Elvish Hero", "more", "Elvish Champion"},
-		{"Goblin Spearman", "more", "more", "more"},
-		{"Goblin Spearman", "Goblin Rouser", "none", "none"},
+		{"Bloodborn", "more", "more", "more"},
+		{"Sky Shard", "Sky Crystal", "none", "none"},
 		{"Dune Soldier", "Dune Swordsman", "Dune Blademaster", "Dune Paragon"},
 	},
 	{
