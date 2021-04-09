@@ -465,19 +465,19 @@ on_event("side 1 turn", function()
 	-- remove the to-be-consumed weather event from the todo list.
 	wml.variables["weather_event[0]"] = nil
 	if weather_event.weather_id == "clear" then
-		weather_map("multiplayer/maps/Dark_Forecast_basic.map")
+		weather_map("data/add-ons/Isle_of_Mists/maps/2p_Isle_of_Mists_basic.map")
 		wesnoth.wml_actions.sound {
 			name = "magic-holy-miss-2.ogg",
 		}
 		weather_alert(_"Clear Weather", 221, 253, 171)
 	elseif weather_event.weather_id == "drought" then
-		weather_map ("multiplayer/maps/Dark_Forecast_drought.map")
+		weather_map ("data/add-ons/Isle_of_Mists/maps/2p_Isle_of_Mists_drought.map")
 		wesnoth.wml_actions.sound {
 			name = "gryphon-shriek-1.ogg",
 		}
 		weather_alert(_"Drought", 251, 231, 171)
 	elseif weather_event.weather_id == "heavy rain" then
-		weather_map("multiplayer/maps/Dark_Forecast_rain.map")
+		weather_map("data/add-ons/Isle_of_Mists/maps/2p_Isle_of_Mists_rain.map")
 		wesnoth.wml_actions.sound {
 			name = "magic-faeriefire-miss.ogg",
 		}
@@ -489,13 +489,13 @@ on_event("side 1 turn", function()
 		}
 		weather_alert(_"Heavy Rains", 174, 220, 255)
 	elseif weather_event.weather_id == "snowfall" then
-		weather_map("multiplayer/maps/Dark_Forecast_firstsnow.map")
+		weather_map("data/add-ons/Isle_of_Mists/maps/2p_Isle_of_Mists_snow.map")
 		wesnoth.wml_actions.sound {
 			name = "wail.wav",
 		}
 		weather_alert(_"Snowfall", 229, 243, 241)
 	elseif weather_event.weather_id == "heavy snowfall" then
-		weather_map("multiplayer/maps/Dark_Forecast_secondsnow.map")
+		weather_map("data/add-ons/Isle_of_Mists/maps/2p_Isle_of_Mists_secondsnow.map")
 		wesnoth.wml_actions.sound {
 			name = "bat-flapping.wav",
 		}
