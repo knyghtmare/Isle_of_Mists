@@ -1,6 +1,5 @@
-
 local helper = wesnoth.require("helper")
-local _ = wesnoth.textdomain 'wesnoth-multiplayer'
+local _ = wesnoth.textdomain 'wesnoth-IoM'
 local T = wml.tag
 local on_event = wesnoth.require("on_event")
 
@@ -172,7 +171,7 @@ local function create_timed_spawns(interval, num_spawns, base_gold_amount, gold_
 		local turn = 3 + (spawn_number - 1) * interval
 		local gold = base_gold_amount + (turn - 3) * gold_increment
 		if spawn_number > 1 then
-			-- foruma taken from original Dark forecast, TODO: find easier formula.
+			-- formula taken from original Dark forecast, TODO: find easier formula.
 			local unit_gold = (turn - 3) * gold_increment + math.min(wesnoth.random(base_gold_amount), wesnoth.random(base_gold_amount))
 			local gold_per_unit = gold_per_unit_amount + turn / 1.5
 			local units = unit_gold / gold_per_unit + units_amount + wesnoth.random(-1, 2)
