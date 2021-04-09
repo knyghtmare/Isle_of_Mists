@@ -20,3 +20,13 @@
 
 ## Inspirations
  - Inspired heavily by 2p - Dark Forecast
+
+## Credits
+ - Tahsin Jahin Khalid (Lord-Knightmare/knyghtmare)
+     - Map design, spawn groups, and scenario design
+ - gfgtdf 
+     - Lua code for Dark Forecast which was used and modified  
+ - jb 
+     - Dark Forecast Map design, spawn groups, and scenario concept
+ - Rhuvaen
+     - WML implementation of Dark Forecast
