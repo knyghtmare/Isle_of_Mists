@@ -20,7 +20,7 @@ local random_spawns = {
 	{
 		{"Merman Fighter", "Merman Warrior", "Merman Triton", "none"},
 		{"Naga Dirkfang", "Naga Ophidian", "Naga Sicarius", "none"},
-		{"Spearman", "Pikeman", "none", "Halberdier"},
+		{"Centaur Warden", "Centaur Sentinel", "none", "Centaur Spearmaiden"},
 	},
 	{
 		{"Elvish Shaman", "Elvish Druid", "Elvish Shyde", "Elvish Sylph"},
