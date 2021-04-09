@@ -288,7 +288,7 @@ on_event("new turn", function()
 	end
 	wml.variables["timed_spawn[0]"] = nil
 	local unit_types = get_spawn_types(next_spawn.units, next_spawn.gold, random_spawns[next_spawn.pool_num])
-	local spawn_areas = {{"3-14", "15"}, {"1", "4-13"}, {"2-13", "1"}, {"1", "2-15"}}
+	local spawn_areas = {{"6", "3"}, {"4", "6"}, {"3", "9"}, {"3", "13"}, {"7", "14"}, {"10", "14"}, {"14", "14"}, {"20", "15"}, {"26", "15"}, {"28", "11"}, {"29", "7"}, {"25", "3"}, {"29", "3"}, {"19", "3"}, {"15", "3"}, {"12", "3"}, {"8", "4"},}
 	local spawn_area = spawn_areas[wesnoth.random(#spawn_areas)]
 	local locations_in_area = wesnoth.map.find { x = spawn_area[1], y = spawn_area[2], radius=1, include_borders=false }
 	local chosen_location = locations_in_area[wesnoth.random(#locations_in_area)]
@@ -361,7 +361,7 @@ on_event("prestart", function()
 	wml.array_access.set("fixed_spawn", {
 		fixed_spawn(1, 15, "Fire Dragon", "Gryphon Master", "Hurricane Drake"),
 		fixed_spawn(5, 1, "Yeti", "Elvish Druid", "Elvish Druid"),
-		fixed_spawn(1, 7, "Lich", "Walking Corpse", "Walking Corpse", "Walking Corpse", "Ghoul", "Soulless", "Walking Corpse", "Walking Corpse", "Walking Corpse"),
+		fixed_spawn(4, 9, "Sangel", "Bloodborn", "Gargoyle", "Bloodborn", "Malborn", "Malborn", "Bloodborn", "Bloodborn", "Bloodborn"),
 		fixed_spawn(11, 15, "Elvish Champion", "Dwarvish Stalwart", "Dwarvish Stalwart", "Orcish Slayer"),
 	})
 end)
