@@ -102,11 +102,6 @@ msgstr ""
 msgid "Healing Keep"
 msgstr ""
 
-#. [label]
-#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:187
-msgid "Place units next to her for healing."
-msgstr ""
-
 #. [message]: speaker=narrator
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:209
 msgid "Isle of Mists — a random survival scenario"
