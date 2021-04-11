@@ -363,7 +363,7 @@ on_event("prestart", function()
 		fixed_spawn(1, 15, "Armageddon Drake", "Cave Bear", "Spectre"),
 		fixed_spawn(5, 1, "Yeti", "Dune Luminary", "Elvish Druid"),
 		fixed_spawn(1, 7, "Lich", "Walking Corpse", "Fire Guardian", "Walking Corpse", "Ghoul", "Soulless", "Fire Guardian", "Walking Corpse", "Fire Guardian"),
-		fixed_spawn(11, 15, "Dune Paragon", "Dwarvish Guardsman", "Dwarvish Guardsman", "Orcish Slayer"),
+		fixed_spawn(11, 15, "Dune Paragon", "Troll Shaman", "Dwarvish Stalwart", "Orcish Slayer"),
 	})
 end)
 
