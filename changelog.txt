@@ -2,3 +2,9 @@ Isle of Mists
 
 v0.0.1:
 --> Initial Release for Wesnoth 1.15.12
+--> 2 scenarios
+    --> 2p - Isle of Mists
+    --> 2p - Dark Forecast (revised)
+        Enemy wave compositions have been dated from the
+        dated ones. Dunefolk and Wesnoth Fauna (monster) units
+        have been slotted into existing waves.
