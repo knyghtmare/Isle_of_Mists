@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-04-09 23:02 UTC\n"
+"POT-Creation-Date: 2021-04-12 19:54 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,42 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. [lua]: final_spawn
-#: Isle_of_Mists/lua/scenario.lua:314
-msgid "The last and most powerful of these creatures are almost upon us. I feel that if we can finish them off in time, we shall be victorious."
-msgstr ""
-
-#. [lua]: final_spawn
-#: Isle_of_Mists/lua/scenario.lua:344
-msgid "The screams and pleas for mercy are finally silenced, as you remove your blood soaked blade from the last of the invaders. There will be no more assailants coming to your shores. Your reign has finally earned stability."
-msgstr ""
-
-#. [lua]: weather_map
-#: Isle_of_Mists/lua/scenario.lua:473
-msgid "Clear Weather"
-msgstr ""
-
-#. [lua]: weather_map
-#: Isle_of_Mists/lua/scenario.lua:479
-msgid "Drought"
-msgstr ""
-
-#. [lua]: weather_map
-#: Isle_of_Mists/lua/scenario.lua:491
-msgid "Heavy Rains"
-msgstr ""
-
-#. [lua]: weather_map
-#: Isle_of_Mists/lua/scenario.lua:497
-msgid "Snowfall"
-msgstr ""
-
-#. [lua]: weather_map
-#: Isle_of_Mists/lua/scenario.lua:503
-msgid "Heavy Snowfall"
+#. [multiplayer]: id=multiplayer_2p_Dark_Forecast_revised
+#: Isle_of_Mists/scenarios/2p_Dark_Forecast_Revised.cfg:6
+msgid "2p — Dark Forecast (Survival) - Revised"
 msgstr ""
 
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:4
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:4
 msgid "Your aim is to survive the spawning waves of units and defeat the final archenemies. The spawning waves are randomly generated and will be different each time Isle of Mists is played. They appear along the north, south, and west map edges — though they are most likely to spawn on the west edge. The waves appear at somewhat regular intervals. The weather will also change randomly, affecting the layout of the map."
 msgstr ""
 
@@ -56,12 +27,15 @@ msgstr ""
 
 #. [multiplayer]: id=multiplayer_2p_Isle_of_Mists
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:10
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:10
 msgid "Isle of Mists is a survival scenario for solitaire or two-player team-based play against randomly-spawned AI units. Victory is achieved by surviving and defeating all enemy waves. During the course of play, the terrain will change based on random weather effects. You need to use the default map settings for the scenario to work right."
 msgstr ""
 
 #. [side]
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:26
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:39
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:26
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:39
 msgid "teamname^Invaders"
 msgstr ""
 
@@ -69,71 +43,92 @@ msgstr ""
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:57
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:84
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:108
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:57
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:84
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:108
 msgid "teamname^Defenders"
 msgstr ""
 
 #. [then]
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:136
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:136
 msgid "Death of your leader"
 msgstr ""
 
 #. [then]
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:137
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:137
 msgid "Since your team has only one leader, the enemy waves will not be at full strength."
 msgstr ""
 
 #. [else]
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:140
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:140
 msgid "Death of both of your team’s leaders"
 msgstr ""
 
 #. [else]
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:141
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:141
 msgid "Since your team has two leaders, the enemy waves will be at full strength."
 msgstr ""
 
 #. [objective]: condition=win
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:168
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:168
 msgid "Survive and defeat all enemy waves"
 msgstr ""
 
 #. [label]
 #: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:186
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:186
 msgid "Healing Keep"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:209
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:208
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:208
 msgid "Isle of Mists — a random survival scenario"
 msgstr ""
 
 #. [message]
-#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:217
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:216
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:216
 msgid "Invaders approach on the horizon! Let us prepare defences!"
 msgstr ""
 
 #. [message]
-#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:221
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:220
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:220
 msgid "The invaders are rumored to be a strange alliance of races, and our control over this isle might be threatened. We must be prepared for the surprises thrown at us."
 msgstr ""
 
 #. [message]
-#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:225
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:224
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:224
 msgid "Then let us show make them regret their incursion."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:244
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:243
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:243
 msgid "Ugh! How can this be? Defeated by mere barbarians! My gods have forsaken me..."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:258
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:257
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:257
 msgid "Cheers of your enemy are the last thing you hear as you slip into death...their joy fills your last moments with pure hate."
 msgstr ""
 
 #. [message]
-#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:280
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists.cfg:279
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:279
 msgid "The enemy cheers as a dark mist rises from the land, engulfing you. As ghostly wisps drain away your will, you realize that your time in this land is over."
+msgstr ""
+
+#. [multiplayer]: id=multiplayer_2p_Isle_of_Mists
+#: Isle_of_Mists/scenarios/2p_Isle_of_Mists_Default.cfg:9
+msgid "2p — Isle of Mists (Survival) (Default)"
 msgstr ""
 
