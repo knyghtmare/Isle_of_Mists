@@ -2,7 +2,7 @@ Isle of Mists
 
 v0.0.1:
 --> Initial Release for Wesnoth 1.15.12
---> 4 scenarios
+--> 6 scenarios
     --> 2p - Isle of Mists
         Comes in 2 variants. One is the original,
         using waves from Default + War of Legends
@@ -15,3 +15,5 @@ v0.0.1:
         Enemy wave compositions have been updated from the
         dated ones. Dunefolk and Wesnoth Fauna (monster) units
         have been slotted into existing waves.
+    --> 2p - Dark Forecast (WoL version)
+    --> 6p - Team Survival (WoL version)
