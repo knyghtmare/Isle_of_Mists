@@ -1,6 +1,10 @@
 Isle of Mists
 
-v0.0.1:
+v1.0.1:
+--> added a check to only load WoL variations
+    if WoL is installed.
+
+v1.0.0:
 --> Initial Release for Wesnoth 1.15.12
 --> 6 scenarios
     --> 2p - Isle of Mists
