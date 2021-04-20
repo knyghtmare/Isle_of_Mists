@@ -1,5 +1,12 @@
 Isle of Mists
 
+v1.0.2
+--> Dark Forecast, Isle of Mists (both):
+    --> Added 3 more harder difficulty scales
+        to compensate for the enemy strength
+        dropping to "less satisfactory" levels
+        in 1-player mode if on +30% difficulty scaling.
+
 v1.0.1:
 --> added a check to only load WoL variations
     if WoL is installed.
