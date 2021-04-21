@@ -13,6 +13,7 @@ v1.0.3
     --> starting gold buffed to 100 (since it's too hard now)
 --> 2p - Dark Forecast (revision)
     --> slight code adjustments (Lua)
+        --> Fixed enemies moving over impassable/unwalkable terrain
     --> adjusted one of the final waves
     --> slight adjustment to one enemy wave
 
