@@ -390,6 +390,7 @@ on_event("prestart", function()
 	}
 	local clear_turns_left = 22
 	local heavy_snowfall_turns_left = 6
+	local second_rain_turns_left = 12
 	while turn < 55 and #weather_to_dispense > 0 do
 		-- pick a random weather except 'clear' and 'heavy snow'
 		local index = wesnoth.random(#weather_to_dispense)
@@ -416,6 +417,19 @@ on_event("prestart", function()
 			turn = turn + num_turns
 			heavy_snowfall_turns_left = heavy_snowfall_turns_left - num_turns
 		end
+
+		-- second heavy rain/inundation happens one-thirds the time
+		if weather_id == "heavy rain" and second_rain_turns_left >= 0 and wesnoth.random(3) == 3 then
+			num_turns = get_weather_duration(second_rain_turns_left)
+			wml.variables[string.format("weather_event[%d]", event_num)] = {
+				turn = turn,
+				weather_id = "second rain",
+			}
+			event_num = event_num + 1
+			turn = turn + num_turns
+			second_rain_turns_left = second_rain_turns_left - num_turns
+		end
+
 		-- Go back to clear weather.
 		num_turns = get_weather_duration(clear_turns_left)
 		wml.variables[string.format("weather_event[%d]", event_num)] = {
@@ -488,6 +502,20 @@ on_event("side 1 turn", function()
 			name = "ambient/ship.ogg",
 		}
 		weather_alert(_"Heavy Rains", 174, 220, 255)
+
+	elseif weather_event.weather_id == "second rain" then
+		weather_map("~add-ons/Isle_of_Mists/maps/2p_Isle_of_Mists_secondrain.map")
+		wesnoth.wml_actions.sound {
+			name = "magic-faeriefire-miss.ogg",
+		}
+		wesnoth.wml_actions.delay {
+			time = 250,
+		}
+		wesnoth.wml_actions.sound {
+			name = "ambient/ship.ogg",
+		}
+		weather_alert(_"Inundation", 174, 220, 255)
+
 	elseif weather_event.weather_id == "snowfall" then
 		weather_map("~add-ons/Isle_of_Mists/maps/2p_Isle_of_Mists_snow.map")
 		wesnoth.wml_actions.sound {
