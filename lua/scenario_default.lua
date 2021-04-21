@@ -85,6 +85,7 @@ local random_spawns = {
 	},
 	{
 		{"Horned Scarab", "more", "more", "more"},
+		{"Dwarvish Ulfserker", "more", "more", "more"},
 		{"Mage", "White Mage", "Mage of Light", "none"},
 		{"Orcish Grunt", "Orcish Warrior", "more", "none"},
 	},
@@ -212,7 +213,7 @@ end
 -- @a x,y: the location where to spawn the units on the map.
 local function place_units(unittypes, x, y)
 	for i,v in ipairs(unittypes) do
-		local u = wesnoth.units.create { type = v, generate_name = true, side = 2 }
+		local u = wesnoth.units.create { type = v, passable = true, placement = "map", generate_name = true, side = 2 }
 		u:add_modification("object", {
 			T.effect {
 				apply_to = "movement_costs",
@@ -221,8 +222,6 @@ local function place_units(unittypes, x, y)
 					flat = 1,
 					sand = 2,
 					forest = 2,
-					impassable = 3,
-					unwalkable = 3,
 					deep_water = 3,
 				}
 			}
