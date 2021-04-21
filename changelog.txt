@@ -8,6 +8,7 @@ v1.0.3
     --> slight adjustment to one enemy wave
     --> Revised one of the final waves
     --> slight code adjustements (Lua)
+    --> void border fix for maps
 --> 2p - Dark Forecast (revision)
     --> slight code adjustements (Lua)
     --> adjusted one of the final waves
