@@ -9,6 +9,8 @@ v1.0.3
     --> Revised one of the final waves
     --> slight code adjustements (Lua)
     --> void border fix for maps
+    --> new weather change - second rain/inundation
+    --> starting gold buffed to 100 (since it's too hard)
 --> 2p - Dark Forecast (revision)
     --> slight code adjustements (Lua)
     --> adjusted one of the final waves
