@@ -86,8 +86,9 @@ local random_spawns = {
 	},
 	{
 		{"Horned Scarab", "more", "more", "more"},
-		{"Dune Herbalist", "Dune Apothecary", "Dune Luminary", "none"},
-		{"Young Ogre", "Ogre", "more", "none"},
+		{"Mage", "White Mage", "Mage of Light", "none"},
+		{"Spearman", "Pikeman", "more", "none"},
+		{"Dwarvish Ulfserker", "Dwarvish Berserker", "more", "none"},
 	},
 }
 
@@ -358,9 +359,9 @@ on_event("prestart", function()
 		return res
 	end
 	wml.array_access.set("fixed_spawn", {
-		fixed_spawn(1, 15, "Armageddon Drake", "Grand Knight", "Spectre"),
-		fixed_spawn(5, 1, "Yeti", "Dune Luminary", "Elvish Druid"),
-		fixed_spawn(1, 7, "Lich", "Walking Corpse", "Fire Guardian", "Walking Corpse", "Ghoul", "Soulless", "Fire Guardian", "Walking Corpse", "Fire Guardian"),
+		fixed_spawn(1, 15, "Armageddon Drake", "Grand Knight", "Giant Spider"),
+		fixed_spawn(5, 1, "Yeti", "Elvish Shyde", "Elvish Druid"),
+		fixed_spawn(1, 7, "Lich", "Walking Corpse", "Fire Guardian", "Walking Corpse", "Necrophage", "Soulless", "Fire Guardian", "Walking Corpse", "Fire Guardian"),
 		fixed_spawn(11, 15, "Dune Paragon", "Troll Shaman", "Dwarvish Stalwart", "Orcish Slayer"),
 	})
 end)
