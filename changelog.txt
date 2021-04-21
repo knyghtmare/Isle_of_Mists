@@ -11,6 +11,8 @@ v1.0.3
     --> void border fix for maps
     --> new weather change - second rain/inundation
     --> starting gold buffed to 100 (since it's too hard now)
+        --> I was able to clear on 2 player mode, but I cannot say
+            if it seems easy, I might restore the 75g start amount
 --> 2p - Dark Forecast (revision)
     --> slight code adjustments (Lua)
         --> Fixed enemies moving over impassable/unwalkable terrain
