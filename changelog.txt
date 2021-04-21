@@ -1,12 +1,17 @@
 Isle of Mists
 
 v1.0.3
---> Isle of Mists
+--> 2p - Isle of Mists
     --> Assigned the "mainline candidate" status
     --> Side 5 healer unit appropriately nerfed
         (after someone used her as a meat shield)
     --> slight adjustment to one enemy wave
     --> Revised one of the final waves
+    --> slight code adjustements (Lua)
+--> 2p - Dark Forecast (revision)
+    --> slight code adjustements (Lua)
+    --> adjusted one of the final waves
+    --> slight adjustment to one enemy wave
 
 v1.0.2
 --> Dark Forecast, Isle of Mists (both):
