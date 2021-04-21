@@ -7,12 +7,12 @@ v1.0.3
         (after someone used her as a meat shield)
     --> slight adjustment to one enemy wave
     --> Revised one of the final waves
-    --> slight code adjustements (Lua)
+    --> slight code adjustments (Lua)
     --> void border fix for maps
     --> new weather change - second rain/inundation
     --> starting gold buffed to 100 (since it's too hard now)
 --> 2p - Dark Forecast (revision)
-    --> slight code adjustements (Lua)
+    --> slight code adjustments (Lua)
     --> adjusted one of the final waves
     --> slight adjustment to one enemy wave
 
