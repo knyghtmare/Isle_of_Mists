@@ -1,5 +1,12 @@
 Isle of Mists
 
+v1.0.3
+--> Isle of Mists
+    --> Assigned the "mainline candidate" status
+    --> Side 5 healer unit appropriately nerfed
+        (after someone used her as a meat shield)
+    --> 
+
 v1.0.2
 --> Dark Forecast, Isle of Mists (both):
     --> Added 3 more harder difficulty scales
