@@ -1,5 +1,8 @@
 Isle of Mists
 
+v1.0.4
+--> updated .pot file
+
 v1.0.3
 --> 2p - Isle of Mists
     --> Assigned the "mainline candidate" status
@@ -11,7 +14,7 @@ v1.0.3
     --> void border fix for maps
     --> new weather change - second rain/inundation
     --> starting gold buffed to 100 (since it's too hard now)
-        --> I was able to clear on 2 player mode, but I cannot say
+        --> I was able to clear on 2 player mode,
             if it seems easy, I might restore the 75g start amount
 --> 2p - Dark Forecast (revision)
     --> slight code adjustments (Lua)
