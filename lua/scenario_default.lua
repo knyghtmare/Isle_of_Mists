@@ -85,8 +85,8 @@ local random_spawns = {
 	},
 	{
 		{"Horned Scarab", "more", "more", "more"},
-		{"Dune Herbalist", "Dune Apothecary", "Dune Luminary", "none"},
-		{"Young Ogre", "Ogre", "more", "none"},
+		{"Mage", "White Mage", "Mage of Light", "none"},
+		{"Orcish Grunt", "Orcish Warrior", "more", "none"},
 	},
 }
 
