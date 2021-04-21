@@ -5,7 +5,8 @@ v1.0.3
     --> Assigned the "mainline candidate" status
     --> Side 5 healer unit appropriately nerfed
         (after someone used her as a meat shield)
-    --> 
+    --> slight adjustment to one enemy wave
+    --> Revised one of the final waves
 
 v1.0.2
 --> Dark Forecast, Isle of Mists (both):
