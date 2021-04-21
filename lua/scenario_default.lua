@@ -85,7 +85,7 @@ local random_spawns = {
 	},
 	{
 		{"Horned Scarab", "more", "more", "more"},
-		{"Dwarvish Ulfserker", "more", "more", "more"},
+		{"Dwarvish Ulfserker", "Dwarvish Berserker", "more", "none"},
 		{"Mage", "White Mage", "Mage of Light", "none"},
 		{"Orcish Grunt", "Orcish Warrior", "more", "none"},
 	},
