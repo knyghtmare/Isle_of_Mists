@@ -2,6 +2,8 @@ Isle of Mists
 
 v1.0.4
 --> updated .pot file
+--> Dark Forecast (both) version:
+    --> removed movement cost modification code segment
 
 v1.0.3
 --> 2p - Isle of Mists
