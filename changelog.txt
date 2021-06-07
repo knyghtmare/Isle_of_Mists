@@ -4,6 +4,11 @@ v1.0.4
 --> updated .pot file
 --> Dark Forecast (both) version:
     --> removed movement cost modification code segment
+--> Isle of Mists:
+    --> Final wave duration 16 turns
+    --> Final waves spawn 2-3 turns after one another
+    --> regular waves split into 2.
+    --> Slider adjusted to +/- 15 increments
 
 v1.0.3
 --> 2p - Isle of Mists
