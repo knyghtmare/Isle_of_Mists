@@ -269,7 +269,7 @@ on_event("prestart", function()
 	if #leaders < 2 then
 		create_timed_spawns(5, 11, 30, 5, 4, 21)
 	else
-		create_timed_spawns(4, 11, 60, 4, 5, 23)
+		create_timed_spawns(4, 11, 55, 4, 5, 23)
 	end
 end)
 
