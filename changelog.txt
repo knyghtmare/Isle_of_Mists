@@ -1,5 +1,9 @@
 Isle of Mists
 
+v1.0.4.1
+--> IoM:
+    --> reduced difficulty of waves so that the scenario is at least passable and not impossible.
+
 v1.0.4
 --> updated .pot file
 --> added a note to specify that IoM is not beginner friendly.
