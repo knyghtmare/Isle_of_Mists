@@ -1,5 +1,9 @@
 Isle of Mists
 
+v1.0.4.3
+--> IoM: fixed an incorrect unit ID bug
+--> readjusted difficulty again
+
 v1.0.4.2
 --> IoM:
     --> reduced difficulty of waves so that the scenario is at least passable and not impossible.
