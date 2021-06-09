@@ -80,7 +80,7 @@ local random_spawns = {
 	{
 		{"Dwarvish Fighter", "Dwarvish Steelclad", "more", "Dwarvish Lord"},
 		{"Poacher", "Trapper", "more", "none"},
-		{"more", "more", "Jinn", "none"},
+		{"Jinn", "more", "more", "none"},
 	},
 	{
 		{"Horned Scarab", "more", "more", "more"},
@@ -267,9 +267,9 @@ end)
 on_event("prestart", function()
 	local leaders = wesnoth.units.find_on_map { side = "3,4", canrecruit= true}
 	if #leaders < 2 then
-		create_timed_spawns(5, 6, 45, 5, 3, 21)
+		create_timed_spawns(5, 6, 45, 5, 2, 21)
 	else
-		create_timed_spawns(4, 6, 90, 4, 4, 23)
+		create_timed_spawns(4, 6, 90, 4, 3, 23)
 	end
 end)
 
