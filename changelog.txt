@@ -1,5 +1,8 @@
 Isle of Mists
 
+v1.0.4.7
+--> IoM: slightly buffed player side(s) (village_gold has now been doubled)
+
 v1.0.4.6
 --> IoM: fixed deprecated lua code warning
 
