@@ -322,7 +322,7 @@ on_event("new turn", function()
 		message= _ "The last and most powerful of these creatures are almost upon us. I feel that if we can finish them off in time, we shall be victorious.",
 	}
 
-	wml.variables["next_final_spawn"] = wesnoth.current.turn + mathx.random(2,3)
+	wml.variables["next_final_spawn"] = wesnoth.current.turn + mathx.random(1,2)
 end)
 
 -- after the first final spawn, spawn a new final spawn every 1 or 2 turns.
