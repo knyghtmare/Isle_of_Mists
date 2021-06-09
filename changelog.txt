@@ -1,6 +1,6 @@
 Isle of Mists
 
-v1.0.4.3
+v1.0.4.4
 --> IoM: fixed an incorrect unit ID bug
 --> readjusted difficulty again
 
