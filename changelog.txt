@@ -1,5 +1,8 @@
 Isle of Mists
 
+v1.0.4.8:
+--> reverted the village gold buff (made it too easy)
+
 v1.0.4.7
 --> IoM: slightly buffed player side(s) (village_gold has now been doubled)
 --> IoM: (solitaire mode) +50 starting gold
