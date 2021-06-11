@@ -3,7 +3,6 @@ Isle of Mists
 v1.0.4.10:
 --> adjusted the spawner's unit amount formulae to ensure waves do overwhelm the players
     should be 4-5 units per wave
---> waves have been adjusted to never overlap
 --> solitaire mode start gold bonus nerfed to 25 (from 50).
 --> disallowed swimmer units from 1 MP cost on flat.
 --> made it a requirement to have the scenario installed for both players
