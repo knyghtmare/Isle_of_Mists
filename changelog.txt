@@ -1,7 +1,13 @@
 Isle of Mists
 
+v1.0.4.10:
+--> adjusted the spawner's unit amount formulae to ensure waves do overwhelm the players
+    should be 4-5 units per wave
+--> waves have been adjusted to never overlap
+--> solitaire mode start gold bonus nerfed to 25 (from 50).
+
 v1.0.4.9:
---> Swapped out Jinn for Fire Wraith. Jinn was too much LMAO. I seriously think this unit is completely messed up in terms of balance. Satan would be proud to see such a unit.
+--> Swapped out Jinn for Wraith. Jinn was too much LMAO. I seriously think this unit is completely messed up in terms of balance. Satan would be proud to see such a unit.
 
 v1.0.4.8:
 --> reverted the village gold buff (made it too easy)
