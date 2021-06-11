@@ -80,7 +80,7 @@ local random_spawns = {
 	{
 		{"Dwarvish Fighter", "Dwarvish Steelclad", "more", "Dwarvish Lord"},
 		{"Poacher", "Trapper", "more", "none"},
-		{"Jinn", "more", "more", "none"},
+		{"Fire Wraith", "more", "more", "Jinn"},
 	},
 	{
 		{"Horned Scarab", "more", "more", "more"},

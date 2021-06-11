@@ -1,5 +1,8 @@
 Isle of Mists
 
+v1.0.4.9:
+--> Swapped out Jinn for Fire Wraith. Jinn was too much LMAO. I seriously think this unit is completely messed up in terms of balance. Satan would be proud to see such a unit.
+
 v1.0.4.8:
 --> reverted the village gold buff (made it too easy)
 
