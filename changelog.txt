@@ -1,5 +1,9 @@
 Isle of Mists
 
+v1.0.4.11:
+--> adjusted enemy wave strength
+    (if this is too easy now, I guess I gotta start upping difficulty now)
+
 v1.0.4.10:
 --> adjusted the spawner's unit amount formulae to ensure waves do overwhelm the players
     should be 4-5 units per wave
