@@ -169,10 +169,10 @@ local function create_timed_spawns(interval, num_spawns, base_gold_amount, gold_
 	local end_spawns = 0
 	for spawn_number = 1, num_spawns do
 		local turn = 3 + (spawn_number - 1) * interval
-		local gold = (base_gold_amount * 0.50) + (turn - 3) * gold_increment
+		local gold = (base_gold_amount * 0.75) + (turn - 3) * gold_increment
 		if spawn_number > 1 then
 			-- formula taken from original Dark forecast, TODO: find easier formula.
-			local unit_gold = (turn - 3) * gold_increment + math.min(mathx.random((base_gold_amount * 0.50)), mathx.random((base_gold_amount * 0.50)))
+			local unit_gold = (turn - 3) * gold_increment + math.min(mathx.random((base_gold_amount * 0.75)), mathx.random((base_gold_amount * 0.75)))
 			local gold_per_unit = gold_per_unit_amount + turn / 1.5
 			local units = (unit_gold * 0.60) / gold_per_unit + (units_amount * 0.50) + mathx.random(-1, 2)
 			if mathx.random(5) == 5 then
