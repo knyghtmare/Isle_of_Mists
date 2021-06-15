@@ -1,7 +1,8 @@
 Isle of Mists
 
-v1.0.4.13:
---> 
+v1.0.4.14:
+--> nerfed one of the final waves
+--> adjusted balance
 
 v1.0.4.12:
 --> fixed a lua error
