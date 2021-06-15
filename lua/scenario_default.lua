@@ -358,7 +358,7 @@ on_event("prestart", function()
 	wml.array_access.set("fixed_spawn", {
 		fixed_spawn(27, 3, "Armageddon Drake", "Wild Wyvern", "Grand Knight"),
 		fixed_spawn(8, 14, "Dune Paragon", "Dune Luminary", "Fire Drake"),
-		fixed_spawn(4, 9, "Necromancer", "Necrophage", "Dune Explorer", "Dune Rover", "Dune Falconer", "Dune Captain", "Dune Soldier", "Dune Rover", "Dune Soldier"),
+		fixed_spawn(4, 9, "Necromancer", "Dune Soldier", "Dune Rover", "Dune Rover", "Dune Falconer", "Dune Captain", "Dune Rover", "Dune Soldier"),
 		fixed_spawn(28,11, "Elvish Champion", "Dune Spearguard", "Dwarvish Stalwart", "Necrophage"),
 		fixed_spawn(5, 3, "Dwarvish Arcanister", "Mage of Light", "Drake Warrior", "Arch Mage"),
 	})
