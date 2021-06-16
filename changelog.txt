@@ -2,6 +2,9 @@ Isle of Mists
 
 v1.0.4.16:
 --> XP modifier adjusted to 80% (original was 100%)
+    From my latest playthrough, I have noticed that players might not
+    be able to accumulate enough XP in time for the final waves so I 
+    am lowering the XP modifier. I am also willing to go as far as 70%, no lower.
 
 v1.0.4.15:
 --> final waves appear 2-3 turns after each other instead of 1-2
