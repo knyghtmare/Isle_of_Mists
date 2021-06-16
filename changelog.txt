@@ -1,8 +1,10 @@
 Isle of Mists
 
+v1.0.4.16:
+--> XP modifier adjusted to 80% (original was 100%)
+
 v1.0.4.15:
 --> final waves appear 2-3 turns after each other instead of 1-2
---> 
 
 v1.0.4.14:
 --> nerfed one of the final waves
