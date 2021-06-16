@@ -256,9 +256,9 @@ end)
 on_event("prestart", function()
 	local leaders = wesnoth.units.find_on_map { side = "3,4", canrecruit= true}
 	if #leaders < 2 then
-		create_timed_spawns(6, 11, 25, 5, 3, 21)
+		create_timed_spawns(6, 11, 35, 5, 3, 21)
 	else
-		create_timed_spawns(5, 11, 55, 4, 4, 23)
+		create_timed_spawns(5, 11, 65, 4, 4, 23)
 	end
 end)
 
@@ -311,16 +311,16 @@ on_event("new turn", function()
 		message= _ "The last and most powerful of these creatures are almost upon us. I feel that if we can finish them off in time, we shall be victorious.",
 	}
 
-	wml.variables["next_final_spawn"] = wesnoth.current.turn + mathx.random(1,2)
+	wml.variables["next_final_spawn"] = wesnoth.current.turn + mathx.random(2,3)
 end)
 
--- after the first final spawn, spawn a new final spawn every 1 or 2 turns.
+-- after the first final spawn, spawn a new final spawn every 2 or 3 turns.
 on_event("new turn", function()
 	if wesnoth.current.turn ~= wml.variables["next_final_spawn"] then
 		return
 	end
 	final_spawn()
-	wml.variables["next_final_spawn"] = wesnoth.current.turn + mathx.random(1,2)
+	wml.variables["next_final_spawn"] = wesnoth.current.turn + mathx.random(2,3)
 end)
 
 -- The victory condition: win when there are no enemy unit after the first final spawn appeared.
