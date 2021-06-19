@@ -1,5 +1,8 @@
 Isle of Mists
 
+v1.0.4.17:
+--> adjusted to match settings to the one of the PR
+
 v1.0.4.16:
 --> XP modifier adjusted to 80% (original was 100%)
     From my latest playthrough, I have noticed that players might not
