@@ -345,10 +345,10 @@ on_event("prestart", function()
 		return res
 	end
 	wml.array_access.set("fixed_spawn", {
-		fixed_spawn(1, 15, "Fire Dragon", "Gryphon Master", "Hurricane Drake"),
-		fixed_spawn(5, 1, "Yeti", "Elvish Druid", "Elvish Druid"),
-		fixed_spawn(1, 7, "Lich", "Walking Corpse", "Walking Corpse", "Walking Corpse", "Ghoul", "Soulless", "Walking Corpse", "Walking Corpse", "Walking Corpse"),
-		fixed_spawn(11, 15, "Elvish Champion", "Dwarvish Stalwart", "Dwarvish Stalwart", "Orcish Slayer"),
+		fixed_spawn(1, 15, "Armageddon Drake", "Quenoth Outrider", "Shadowback"),
+		fixed_spawn(5, 1, "Tauroch Protector", "Dune Luminary", "Quenoth Shaman"),
+		fixed_spawn(1, 7, "Sangel", "Bloodborn", "Gargoyle", "Bloodborn", "Malborn", "Malborn", "Bloodborn", "Bloodborn", "Bloodborn"),
+		fixed_spawn(11, 15, "Dune Paragon", "Minotaur Mystic", "Dwarvish Stalwart", "Aragwaith Guard"),
 	})
 end)
 
