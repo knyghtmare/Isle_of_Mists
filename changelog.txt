@@ -2,7 +2,6 @@ Isle of Mists
 
 v1.0.4.18:
 --> IoM: officially mainlined as of 1.15.14 (Yay, me!)
---> 
 
 v1.0.4.17:
 --> adjusted to match settings to the one of the PR
